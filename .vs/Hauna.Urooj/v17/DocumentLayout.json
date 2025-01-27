@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj.controllers\\stationarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\hauna.urooj.controllers\\stationarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj.controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\hauna.urooj.controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj.models\\subscriptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\hauna.urooj.models\\subscriptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj.controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\hauna.urooj.controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj.services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\hauna.urooj.services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|d:\\code\\client\\urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj\\hauna.urooj.services\\service\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88466D1F-7F49-441A-830B-E97DF2276811}|Hauna.Urooj\\Hauna.Urooj.csproj|solutionrelative:hauna.urooj\\hauna.urooj.services\\service\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StationaryController.cs",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Controllers\\StationaryController.cs",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\Hauna.Urooj.Controllers\\StationaryController.cs",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Controllers\\StationaryController.cs",
+              "RelativeToolTip": "Hauna.Urooj\\Hauna.Urooj.Controllers\\StationaryController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:44:27.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\Hauna.Urooj.Controllers\\BookController.cs",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Controllers\\BookController.cs",
+              "RelativeToolTip": "Hauna.Urooj\\Hauna.Urooj.Controllers\\BookController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:31:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubscriptionModel.cs",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Models\\SubscriptionModel.cs",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\Hauna.Urooj.Models\\SubscriptionModel.cs",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Models\\SubscriptionModel.cs",
+              "RelativeToolTip": "Hauna.Urooj\\Hauna.Urooj.Models\\SubscriptionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T15:27:53.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\appsettings.json",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\appsettings.json",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\appsettings.json",
+              "RelativeToolTip": "Hauna.Urooj\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-17T15:39:09.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MailService.cs",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Services\\Service\\MailService.cs",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\Hauna.Urooj.Services\\Service\\MailService.cs",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Services\\Service\\MailService.cs",
+              "RelativeToolTip": "Hauna.Urooj\\Hauna.Urooj.Services\\Service\\MailService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:55:21.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\Hauna.Urooj.Controllers\\UserController.cs",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Controllers\\UserController.cs",
+              "RelativeToolTip": "Hauna.Urooj\\Hauna.Urooj.Controllers\\UserController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:59:34.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Services\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Hauna.Urooj\\Hauna.Urooj.Services\\Service\\UserService.cs",
+              "ToolTip": "D:\\Code\\client\\Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj\\Hauna.Urooj.Services\\Service\\UserService.cs",
+              "RelativeToolTip": "Hauna.Urooj\\Hauna.Urooj.Services\\Service\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwFIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:59:28.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@Hauna.Urooj_HostAddress = http://localhost:5140
+
+GET {{Hauna.Urooj_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

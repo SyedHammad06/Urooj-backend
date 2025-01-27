@@ -1,0 +1,281 @@
+[
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.StationaryController",
+    "Method": "Create",
+    "RelativePath": "api/Stationary/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.StationaryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.StationaryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Stationary/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.StationaryController",
+    "Method": "Get",
+    "RelativePath": "api/Stationary/GetById/{stationaryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationaryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.StationaryController",
+    "Method": "Remove",
+    "RelativePath": "api/Stationary/Remove/{stationaryId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationaryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ModifiedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.StationaryController",
+    "Method": "Update",
+    "RelativePath": "api/Stationary/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.StationaryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/Urooj/addAdmin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInfoModel",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.UserInfoModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "isAdmin",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "GetAll",
+    "RelativePath": "api/Urooj/Books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "Create",
+    "RelativePath": "api/Urooj/Books/AddBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.BooksModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "Update",
+    "RelativePath": "api/Urooj/Books/EditBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.BooksModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "GetById",
+    "RelativePath": "api/Urooj/Books/GetBy/{BookId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "Remove",
+    "RelativePath": "api/Urooj/Books/Remove",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModifiedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Urooj/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordModel",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.ChangePasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Urooj/GetUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/Urooj/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Urooj/RemoveUser/{userName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "Subscription",
+    "RelativePath": "api/Urooj/Subscription",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subscriptionModel",
+        "Type": "Hauna.Urooj.Hauna.Urooj.Models.SubscriptionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "UserDetails",
+    "RelativePath": "api/Urooj/UserDetails/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.UserController",
+    "Method": "Verify",
+    "RelativePath": "api/Urooj/Verify",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

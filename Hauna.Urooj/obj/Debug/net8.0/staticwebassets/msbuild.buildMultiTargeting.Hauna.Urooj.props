@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Hauna.Urooj.props" />
+</Project>
