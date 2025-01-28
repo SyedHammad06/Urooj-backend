@@ -17,7 +17,7 @@ namespace Hauna.Urooj.Hauna.Urooj.Controllers
             _bookService = bookService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll() 
         {
             var bookList = _bookService.GetBooks();

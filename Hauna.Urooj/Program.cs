@@ -5,6 +5,7 @@ using Hauna.Urooj.Hauna.Urooj.Models;
 using Hauna.Urooj.Hauna.Urooj.Services.Interface;
 using Hauna.Urooj.Hauna.Urooj.Services.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -50,7 +51,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
-app.UseHttpsRedirection();
+/*app.UseHttpsRedirection();*/
+
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
 
 app.UseMiddleware<JwtMiddleware>();
 
