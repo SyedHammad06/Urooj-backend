@@ -101,16 +101,6 @@
   },
   {
     "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
-    "Method": "GetAll",
-    "RelativePath": "api/Urooj/Books",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
     "Method": "Create",
     "RelativePath": "api/Urooj/Books/AddBook",
     "HttpMethod": "POST",
@@ -143,6 +133,16 @@
   },
   {
     "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "GetAll",
+    "RelativePath": "api/Urooj/Books/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
     "Method": "GetById",
     "RelativePath": "api/Urooj/Books/GetBy/{BookId}",
     "HttpMethod": "GET",
@@ -155,6 +155,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hauna.Urooj.Hauna.Urooj.Controllers.BookController",
+    "Method": "Hello",
+    "RelativePath": "api/Urooj/Books/HelloWorld",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

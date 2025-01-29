@@ -17,6 +17,12 @@ namespace Hauna.Urooj.Hauna.Urooj.Controllers
             _bookService = bookService;
         }
 
+        [HttpGet("HelloWorld")]
+        public IActionResult Hello()
+        {
+            return Ok("Hello World");
+        }
+
         [HttpGet("GetAll")]
         public IActionResult GetAll() 
         {

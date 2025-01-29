@@ -150,3 +150,4 @@ D:\Code\client\Urooj\Hauna.Urooj\Hauna.Urooj\Hauna.Urooj\obj\Debug\net8.0\refint
 D:\Code\client\Urooj\Hauna.Urooj\Hauna.Urooj\Hauna.Urooj\obj\Debug\net8.0\Hauna.Urooj.pdb
 D:\Code\client\Urooj\Hauna.Urooj\Hauna.Urooj\Hauna.Urooj\obj\Debug\net8.0\Hauna.Urooj.genruntimeconfig.cache
 D:\Code\client\Urooj\Hauna.Urooj\Hauna.Urooj\Hauna.Urooj\obj\Debug\net8.0\ref\Hauna.Urooj.dll
+D:\Code\client\Urooj\Hauna.Urooj\Hauna.Urooj\Hauna.Urooj\obj\Debug\net8.0\Hauna.Urooj.sourcelink.json
