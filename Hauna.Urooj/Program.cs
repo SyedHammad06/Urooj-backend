@@ -5,11 +5,17 @@ using Hauna.Urooj.Hauna.Urooj.Models;
 using Hauna.Urooj.Hauna.Urooj.Services.Interface;
 using Hauna.Urooj.Hauna.Urooj.Services.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.IdentityModel.Tokens;
+using System.Net;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Any, 5000);
+    options.Listen(IPAddress.Any, 5140);
+});
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
       .AddJwtBearer(options =>
@@ -51,16 +57,22 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
-/*app.UseHttpsRedirection();*/
-
-app.UseForwardedHeaders(new ForwardedHeadersOptions
-{
-    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
-});
+/ app.UseHttpsRedirection();/
 
 app.UseMiddleware<JwtMiddleware>();
 
 app.UseAuthorization();
+
+var env = app.Environment;
+if (env.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
 
 app.MapControllers();
 
